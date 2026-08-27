@@ -5392,7 +5392,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_4.4x5.0mm_P1.27mm"
+		(property "Footprint" "Package_SO:JEITA_SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 97.79 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -5953,7 +5953,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_4.4x5.0mm_P1.27mm"
+		(property "Footprint" "Package_SO:JEITA_SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 52.07 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -6052,7 +6052,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_4.4x5.0mm_P1.27mm"
+		(property "Footprint" "Package_SO:JEITA_SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 102.87 81.28 0)
 			(hide yes)
 			(show_name no)
