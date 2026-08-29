@@ -1,10 +1,31 @@
 #include <Arduino.h>
-
+#include <bluefruit.h>
+#include <Adafruit_SPIFlash.h>
 
 #include "config.h"
 #include "OLED.h"
 #include "sense.h"
 #include "utility.h"
+
+#if defined(CUSTOM_CS) && defined(CUSTOM_SPI)
+  Adafruit_FlashTransport_SPI flashTransport(CUSTOM_CS, CUSTOM_SPI);
+
+#elif defined(ARDUINO_ARCH_ESP32)
+  Adafruit_FlashTransport_ESP32 flashTransport;
+
+#else
+  #if defined(EXTERNAL_FLASH_USE_QSPI)
+    Adafruit_FlashTransport_QSPI flashTransport;
+
+  #elif defined(EXTERNAL_FLASH_USE_SPI)
+    Adafruit_FlashTransport_SPI flashTransport(EXTERNAL_FLASH_USE_CS, EXTERNAL_FLASH_USE_SPI);
+
+  #else
+    #error No QSPI/SPI flash are defined on your board variant.h !
+  #endif
+#endif
+
+Adafruit_SPIFlash flash(&flashTransport);
 
 long pushStart = 0;
 bool wasPushed = false;
@@ -15,6 +36,11 @@ void setup() {
  init_sensors();
  init_OLED();
  pinMode(BTN, INPUT);
+ nrf_gpio_cfg_sense_input(
+    g_ADigitalPinMap[BTN],
+    NRF_GPIO_PIN_NOPULL,
+    NRF_GPIO_PIN_SENSE_HIGH
+  );
 }
 
 void loop() {
@@ -40,15 +66,34 @@ void loop() {
   if(digitalRead(INPUT) == HIGH){
     if(wasPushed){
       if(millis() - pushStart > 5000){
-        
+        go_to_sleep();
       }
     }
+    else{ 
+      wasPushed = true;
+      pushStart = millis();
+    }
   }
-
+  else{
+    wasPushed = false;
+  }
+  delay(50);
 }
 
-
+// HOW TO WAKE UP FROM SLEEP FROM GPIO PIN???
+// ANYONE?
 void go_to_sleep(){
   sensors_off();
   OLED_off();
+  flash.begin();
+  flashTransport.begin();
+  if(flashTransport.runCommand(0xB9) == false){
+    pinMode(LED_BUILTIN, OUTPUT);
+    digitalWrite(LED_BUILTIN, LOW);
+    while(true){
+      yield();
+    }
+  }
+  flashTransport.end();
+  flash.end();
 }
