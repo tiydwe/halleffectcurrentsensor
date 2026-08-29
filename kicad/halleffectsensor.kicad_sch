@@ -2783,6 +2783,12 @@
 		(uuid "bec9273e-6521-4bca-8c04-643631ef13db")
 	)
 	(junction
+		(at 184.15 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e56d9e1b-e088-422a-a281-f99abf196bd5")
+	)
+	(junction
 		(at 97.79 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2836,7 +2842,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 41.91) (xy 209.55 53.34)
+			(xy 227.33 40.64) (xy 227.33 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2876,7 +2882,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 60.96) (xy 199.39 60.96)
+			(xy 212.09 59.69) (xy 217.17 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3026,7 +3032,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 36.83) (xy 201.93 36.83)
+			(xy 210.82 35.56) (xy 219.71 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3056,7 +3062,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 66.04) (xy 199.39 66.04)
+			(xy 212.09 64.77) (xy 217.17 64.77)
 		)
 		(stroke
 			(width 0)
@@ -3113,6 +3119,16 @@
 			(type default)
 		)
 		(uuid "84a31f97-9c20-4f8e-b072-7ccb57438b29")
+	)
+	(wire
+		(pts
+			(xy 184.15 57.15) (xy 184.15 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85e4112d-4128-44fe-9128-4fc04ce2b12d")
 	)
 	(wire
 		(pts
@@ -3364,6 +3380,16 @@
 		)
 		(uuid "f8f01181-7dc3-4c49-b621-a1b87b23ff35")
 	)
+	(wire
+		(pts
+			(xy 176.53 62.23) (xy 171.45 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fafd834a-5fcc-41c5-bfa8-67e547f9f70f")
+	)
 	(label "BTN"
 		(at 158.75 111.76 0)
 		(effects
@@ -3383,6 +3409,16 @@
 			(justify left bottom)
 		)
 		(uuid "0e46067f-6574-4271-97af-629cf15b135a")
+	)
+	(label "CTRL_OLED"
+		(at 184.15 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1b50d8d9-0b8b-47ae-97ed-27ab34b9afd0")
 	)
 	(label "REF_SIG_SCALED"
 		(at 59.69 128.27 0)
@@ -3414,8 +3450,8 @@
 		)
 		(uuid "258f5d7f-10a8-4018-8cef-7aaa0009e42f")
 	)
-	(label "CTRL_PWR"
-		(at 193.04 36.83 0)
+	(label "CTRL_OLED"
+		(at 210.82 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3475,7 +3511,7 @@
 		(uuid "9dea9d0a-bf4d-478b-8fc5-f599d9f5d325")
 	)
 	(label "SDA"
-		(at 194.31 60.96 0)
+		(at 212.09 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3495,7 +3531,7 @@
 		(uuid "b4b5d9de-02eb-4059-91ea-4ddbfed4489d")
 	)
 	(label "SCL"
-		(at 194.31 66.04 0)
+		(at 212.09 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3614,7 +3650,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 209.55 73.66 0)
+		(at 227.33 72.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3625,7 +3661,7 @@
 		(fields_autoplaced yes)
 		(uuid "125f76be-b344-4e90-88f1-757957098596")
 		(property "Reference" "#PWR012"
-			(at 209.55 80.01 0)
+			(at 227.33 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3636,7 +3672,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 209.55 78.74 0)
+			(at 227.33 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3646,7 +3682,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 73.66 0)
+			(at 227.33 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3657,7 +3693,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 73.66 0)
+			(at 227.33 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3668,7 +3704,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 209.55 73.66 0)
+			(at 227.33 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4168,7 +4204,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_BJT:2N3904")
-		(at 207.01 36.83 0)
+		(at 224.79 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4179,7 +4215,7 @@
 		(fields_autoplaced yes)
 		(uuid "1eae8f8b-f80a-445d-807d-d6ca13458d9f")
 		(property "Reference" "Q2"
-			(at 212.09 35.5599 0)
+			(at 229.87 34.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4190,7 +4226,7 @@
 			)
 		)
 		(property "Value" "2N3904"
-			(at 212.09 38.0999 0)
+			(at 229.87 36.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4201,7 +4237,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 212.09 38.735 0)
+			(at 229.87 37.465 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4214,7 +4250,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
-			(at 207.01 36.83 0)
+			(at 224.79 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4226,7 +4262,7 @@
 			)
 		)
 		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
-			(at 207.01 36.83 0)
+			(at 224.79 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4237,7 +4273,7 @@
 			)
 		)
 		(property "Sim.Device" "NPN"
-			(at 207.01 36.83 0)
+			(at 224.79 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4248,7 +4284,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=E 2=B 3=C"
-			(at 207.01 36.83 0)
+			(at 224.79 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4948,46 +4984,46 @@
 			)
 		)
 		(pin "5"
-			(uuid "802615b9-d1de-4d7e-aef1-b3b0f3384444")
+			(uuid "802615b9-d1de-4d7e-aef1-b3b0f3384445")
 		)
 		(pin "4"
-			(uuid "0aa57c3e-6b7e-40ea-a38c-48f68ad1bd02")
+			(uuid "0aa57c3e-6b7e-40ea-a38c-48f68ad1bd03")
 		)
 		(pin "6"
-			(uuid "8dbbee7e-8551-4b2b-bf18-d992c1b3c79f")
+			(uuid "8dbbee7e-8551-4b2b-bf18-d992c1b3c7a0")
 		)
 		(pin "3"
-			(uuid "21c25d5e-7da4-42af-a6f9-911e9116a255")
+			(uuid "21c25d5e-7da4-42af-a6f9-911e9116a256")
 		)
 		(pin "12"
-			(uuid "9931a29f-81e8-4f02-84cc-98c533540a24")
+			(uuid "9931a29f-81e8-4f02-84cc-98c533540a25")
 		)
 		(pin "13"
-			(uuid "e418076c-b6a2-419c-be56-e9960979ebb3")
+			(uuid "e418076c-b6a2-419c-be56-e9960979ebb4")
 		)
 		(pin "14"
-			(uuid "41948da8-a94f-4c13-93a5-8cb931593b5a")
+			(uuid "41948da8-a94f-4c13-93a5-8cb931593b5b")
 		)
 		(pin "2"
-			(uuid "df738193-d6a4-4940-956c-288f51804ce6")
+			(uuid "df738193-d6a4-4940-956c-288f51804ce7")
 		)
 		(pin "8"
-			(uuid "3f9c8ef3-3bb1-447b-a765-d8b1be9c252f")
+			(uuid "3f9c8ef3-3bb1-447b-a765-d8b1be9c2530")
 		)
 		(pin "11"
-			(uuid "0bf34fd1-142b-4eac-9c75-bfa35232e403")
+			(uuid "0bf34fd1-142b-4eac-9c75-bfa35232e404")
 		)
 		(pin "10"
-			(uuid "6c4d37bd-0ed0-445d-9eca-239b978b94a3")
+			(uuid "6c4d37bd-0ed0-445d-9eca-239b978b94a4")
 		)
 		(pin "7"
-			(uuid "b25dbf88-9e2c-400e-a592-dd0a71b9c255")
+			(uuid "b25dbf88-9e2c-400e-a592-dd0a71b9c256")
 		)
 		(pin "9"
-			(uuid "8bd601e1-9dd3-457f-bbdf-19d72054c39d")
+			(uuid "8bd601e1-9dd3-457f-bbdf-19d72054c39e")
 		)
 		(pin "1"
-			(uuid "3ac9c56c-e9e6-4ee5-a16e-22a5027073ee")
+			(uuid "3ac9c56c-e9e6-4ee5-a16e-22a5027073ef")
 		)
 		(instances
 			(project "halleffectsensor"
@@ -5311,6 +5347,88 @@
 			(project "halleffectsensor"
 				(path "/95784f95-fcdb-4f13-9306-39fdb50a3c2d"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 184.15 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c683bd7-6a69-42fe-a61b-d48ff710c96f")
+		(property "Reference" "R14"
+			(at 186.69 64.7699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kR"
+			(at 186.69 67.3099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 182.372 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 184.15 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6e3c4a3c-804e-46cc-80c8-ffcd2a6c2759")
+		)
+		(pin "2"
+			(uuid "ae19261c-f859-439b-9797-a150c42ef009")
+		)
+		(instances
+			(project "halleffectsensor"
+				(path "/95784f95-fcdb-4f13-9306-39fdb50a3c2d"
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -6145,46 +6263,46 @@
 			)
 		)
 		(pin "5"
-			(uuid "802615b9-d1de-4d7e-aef1-b3b0f3384444")
+			(uuid "802615b9-d1de-4d7e-aef1-b3b0f3384446")
 		)
 		(pin "4"
-			(uuid "0aa57c3e-6b7e-40ea-a38c-48f68ad1bd02")
+			(uuid "0aa57c3e-6b7e-40ea-a38c-48f68ad1bd04")
 		)
 		(pin "6"
-			(uuid "8dbbee7e-8551-4b2b-bf18-d992c1b3c79f")
+			(uuid "8dbbee7e-8551-4b2b-bf18-d992c1b3c7a1")
 		)
 		(pin "3"
-			(uuid "21c25d5e-7da4-42af-a6f9-911e9116a255")
+			(uuid "21c25d5e-7da4-42af-a6f9-911e9116a257")
 		)
 		(pin "12"
-			(uuid "9931a29f-81e8-4f02-84cc-98c533540a24")
+			(uuid "9931a29f-81e8-4f02-84cc-98c533540a26")
 		)
 		(pin "13"
-			(uuid "e418076c-b6a2-419c-be56-e9960979ebb3")
+			(uuid "e418076c-b6a2-419c-be56-e9960979ebb5")
 		)
 		(pin "14"
-			(uuid "41948da8-a94f-4c13-93a5-8cb931593b5a")
+			(uuid "41948da8-a94f-4c13-93a5-8cb931593b5c")
 		)
 		(pin "2"
-			(uuid "df738193-d6a4-4940-956c-288f51804ce6")
+			(uuid "df738193-d6a4-4940-956c-288f51804ce8")
 		)
 		(pin "8"
-			(uuid "3f9c8ef3-3bb1-447b-a765-d8b1be9c252f")
+			(uuid "3f9c8ef3-3bb1-447b-a765-d8b1be9c2531")
 		)
 		(pin "11"
-			(uuid "0bf34fd1-142b-4eac-9c75-bfa35232e403")
+			(uuid "0bf34fd1-142b-4eac-9c75-bfa35232e405")
 		)
 		(pin "10"
-			(uuid "6c4d37bd-0ed0-445d-9eca-239b978b94a3")
+			(uuid "6c4d37bd-0ed0-445d-9eca-239b978b94a5")
 		)
 		(pin "7"
-			(uuid "b25dbf88-9e2c-400e-a592-dd0a71b9c255")
+			(uuid "b25dbf88-9e2c-400e-a592-dd0a71b9c257")
 		)
 		(pin "9"
-			(uuid "8bd601e1-9dd3-457f-bbdf-19d72054c39d")
+			(uuid "8bd601e1-9dd3-457f-bbdf-19d72054c39f")
 		)
 		(pin "1"
-			(uuid "3ac9c56c-e9e6-4ee5-a16e-22a5027073ee")
+			(uuid "3ac9c56c-e9e6-4ee5-a16e-22a5027073f0")
 		)
 		(instances
 			(project "halleffectsensor"
@@ -6595,6 +6713,85 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 180.34 62.23 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a93d1848-96f5-467b-8bd1-1d84f9954f46")
+		(property "Reference" "R13"
+			(at 180.34 55.88 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "910R"
+			(at 180.34 58.42 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 180.34 64.008 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 180.34 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ea2769ae-86a1-44f6-9a84-36bb648a77fc")
+		)
+		(pin "2"
+			(uuid "d4a9d9a5-e143-41df-b074-b14def259a45")
+		)
+		(instances
+			(project "halleffectsensor"
+				(path "/95784f95-fcdb-4f13-9306-39fdb50a3c2d"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 74.93 115.57 0)
 		(unit 1)
 		(body_style 1)
@@ -6898,6 +7095,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 184.15 69.85 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b96c9fe0-6f9b-486d-b12e-d7e58baf4c3e")
+		(property "Reference" "#PWR027"
+			(at 184.15 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 184.15 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 184.15 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "91ab2604-c6bf-4286-9327-649f8915e9ae")
+		)
+		(instances
+			(project "halleffectsensor"
+				(path "/95784f95-fcdb-4f13-9306-39fdb50a3c2d"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 35.56 54.61 0)
 		(unit 1)
@@ -6996,7 +7271,7 @@
 				)
 			)
 		)
-		(property "Value" "470R"
+		(property "Value" "910R"
 			(at 121.92 58.42 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7218,7 +7493,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 209.55 31.75 0)
+		(at 227.33 30.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7229,7 +7504,7 @@
 		(fields_autoplaced yes)
 		(uuid "cb836368-5f50-4d56-8bc5-11776666c28c")
 		(property "Reference" "#PWR011"
-			(at 209.55 35.56 0)
+			(at 227.33 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7240,7 +7515,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 209.55 26.67 0)
+			(at 227.33 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7250,7 +7525,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 31.75 0)
+			(at 227.33 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7261,7 +7536,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 31.75 0)
+			(at 227.33 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7272,7 +7547,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 209.55 31.75 0)
+			(at 227.33 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7362,46 +7637,46 @@
 			)
 		)
 		(pin "5"
-			(uuid "802615b9-d1de-4d7e-aef1-b3b0f3384444")
+			(uuid "802615b9-d1de-4d7e-aef1-b3b0f3384447")
 		)
 		(pin "4"
-			(uuid "0aa57c3e-6b7e-40ea-a38c-48f68ad1bd02")
+			(uuid "0aa57c3e-6b7e-40ea-a38c-48f68ad1bd05")
 		)
 		(pin "6"
-			(uuid "8dbbee7e-8551-4b2b-bf18-d992c1b3c79f")
+			(uuid "8dbbee7e-8551-4b2b-bf18-d992c1b3c7a2")
 		)
 		(pin "3"
-			(uuid "21c25d5e-7da4-42af-a6f9-911e9116a255")
+			(uuid "21c25d5e-7da4-42af-a6f9-911e9116a258")
 		)
 		(pin "12"
-			(uuid "9931a29f-81e8-4f02-84cc-98c533540a24")
+			(uuid "9931a29f-81e8-4f02-84cc-98c533540a27")
 		)
 		(pin "13"
-			(uuid "e418076c-b6a2-419c-be56-e9960979ebb3")
+			(uuid "e418076c-b6a2-419c-be56-e9960979ebb6")
 		)
 		(pin "14"
-			(uuid "41948da8-a94f-4c13-93a5-8cb931593b5a")
+			(uuid "41948da8-a94f-4c13-93a5-8cb931593b5d")
 		)
 		(pin "2"
-			(uuid "df738193-d6a4-4940-956c-288f51804ce6")
+			(uuid "df738193-d6a4-4940-956c-288f51804ce9")
 		)
 		(pin "8"
-			(uuid "3f9c8ef3-3bb1-447b-a765-d8b1be9c252f")
+			(uuid "3f9c8ef3-3bb1-447b-a765-d8b1be9c2532")
 		)
 		(pin "11"
-			(uuid "0bf34fd1-142b-4eac-9c75-bfa35232e403")
+			(uuid "0bf34fd1-142b-4eac-9c75-bfa35232e406")
 		)
 		(pin "10"
-			(uuid "6c4d37bd-0ed0-445d-9eca-239b978b94a3")
+			(uuid "6c4d37bd-0ed0-445d-9eca-239b978b94a6")
 		)
 		(pin "7"
-			(uuid "b25dbf88-9e2c-400e-a592-dd0a71b9c255")
+			(uuid "b25dbf88-9e2c-400e-a592-dd0a71b9c258")
 		)
 		(pin "9"
-			(uuid "8bd601e1-9dd3-457f-bbdf-19d72054c39d")
+			(uuid "8bd601e1-9dd3-457f-bbdf-19d72054c3a0")
 		)
 		(pin "1"
-			(uuid "3ac9c56c-e9e6-4ee5-a16e-22a5027073ee")
+			(uuid "3ac9c56c-e9e6-4ee5-a16e-22a5027073f1")
 		)
 		(instances
 			(project "halleffectsensor"
@@ -7902,7 +8177,7 @@
 	)
 	(symbol
 		(lib_id "Display_Graphic:ER_OLEDM0.91_1x-I2C")
-		(at 209.55 63.5 0)
+		(at 227.33 62.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7913,7 +8188,7 @@
 		(fields_autoplaced yes)
 		(uuid "f6078ae2-e965-43d1-a93b-1ac3ec76b3a6")
 		(property "Reference" "U3"
-			(at 218.44 62.2299 0)
+			(at 236.22 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7924,7 +8199,7 @@
 			)
 		)
 		(property "Value" "ER_OLEDM0.91_1x-I2C"
-			(at 218.44 64.7699 0)
+			(at 236.22 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7935,7 +8210,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:OLED-TH_L27.8-W27.2-P2.54_C9900033791"
-			(at 227.584 76.2 0)
+			(at 245.364 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7946,7 +8221,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.buydisplay.com/download/manual/ER-OLEDM0.91-1_Datasheet.pdf"
-			(at 252.222 78.232 0)
+			(at 270.002 76.962 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7957,7 +8232,7 @@
 			)
 		)
 		(property "Description" "SSD1306 OLED module, 0.91 inch, 128x32, I2C"
-			(at 236.22 80.264 0)
+			(at 254 78.994 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8134,46 +8409,46 @@
 			)
 		)
 		(pin "5"
-			(uuid "802615b9-d1de-4d7e-aef1-b3b0f3384444")
+			(uuid "802615b9-d1de-4d7e-aef1-b3b0f3384448")
 		)
 		(pin "4"
-			(uuid "0aa57c3e-6b7e-40ea-a38c-48f68ad1bd02")
+			(uuid "0aa57c3e-6b7e-40ea-a38c-48f68ad1bd06")
 		)
 		(pin "6"
-			(uuid "8dbbee7e-8551-4b2b-bf18-d992c1b3c79f")
+			(uuid "8dbbee7e-8551-4b2b-bf18-d992c1b3c7a3")
 		)
 		(pin "3"
-			(uuid "21c25d5e-7da4-42af-a6f9-911e9116a255")
+			(uuid "21c25d5e-7da4-42af-a6f9-911e9116a259")
 		)
 		(pin "12"
-			(uuid "9931a29f-81e8-4f02-84cc-98c533540a24")
+			(uuid "9931a29f-81e8-4f02-84cc-98c533540a28")
 		)
 		(pin "13"
-			(uuid "e418076c-b6a2-419c-be56-e9960979ebb3")
+			(uuid "e418076c-b6a2-419c-be56-e9960979ebb7")
 		)
 		(pin "14"
-			(uuid "41948da8-a94f-4c13-93a5-8cb931593b5a")
+			(uuid "41948da8-a94f-4c13-93a5-8cb931593b5e")
 		)
 		(pin "2"
-			(uuid "df738193-d6a4-4940-956c-288f51804ce6")
+			(uuid "df738193-d6a4-4940-956c-288f51804cea")
 		)
 		(pin "8"
-			(uuid "3f9c8ef3-3bb1-447b-a765-d8b1be9c252f")
+			(uuid "3f9c8ef3-3bb1-447b-a765-d8b1be9c2533")
 		)
 		(pin "11"
-			(uuid "0bf34fd1-142b-4eac-9c75-bfa35232e403")
+			(uuid "0bf34fd1-142b-4eac-9c75-bfa35232e407")
 		)
 		(pin "10"
-			(uuid "6c4d37bd-0ed0-445d-9eca-239b978b94a3")
+			(uuid "6c4d37bd-0ed0-445d-9eca-239b978b94a7")
 		)
 		(pin "7"
-			(uuid "b25dbf88-9e2c-400e-a592-dd0a71b9c255")
+			(uuid "b25dbf88-9e2c-400e-a592-dd0a71b9c259")
 		)
 		(pin "9"
-			(uuid "8bd601e1-9dd3-457f-bbdf-19d72054c39d")
+			(uuid "8bd601e1-9dd3-457f-bbdf-19d72054c3a1")
 		)
 		(pin "1"
-			(uuid "3ac9c56c-e9e6-4ee5-a16e-22a5027073ee")
+			(uuid "3ac9c56c-e9e6-4ee5-a16e-22a5027073f2")
 		)
 		(instances
 			(project "halleffectsensor"
