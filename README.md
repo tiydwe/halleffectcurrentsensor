@@ -1,3 +1,5 @@
+[![View PCB on KiCanvas](https://hack.club/pcb-badge)](https://kicanvas.org/?repo=https://github.com/tiydwe/halleffectcurrentsensor/tree/main/kicad)
+
 # Handheld Hall Effect Current Sensor
 
 This is a handheld hall effect current sensor, a device used to measure current without needing to directly touch the circuit being measured.
