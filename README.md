@@ -3,6 +3,7 @@
 This is a handheld hall effect current sensor, a device used to measure current without needing to directly touch the circuit being measured.
 ![screenshot of a pcb](assets/image.png)
 ![screenshot of cad model](assets/image-1.png)
+![screenshot of cad model with pcb](assets/image-3.png)
 
 # Features
 * Completely contained on one handheld case, including battery
