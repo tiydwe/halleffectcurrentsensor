@@ -3169,6 +3169,12 @@
 		(uuid "9013bfe6-0ec1-4649-80b4-d6aee7f50285")
 	)
 	(junction
+		(at 116.84 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "903ea243-2fb4-4c2a-b38a-d41ffb8c5965")
+	)
+	(junction
 		(at 53.34 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3185,12 +3191,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b4d5e48e-3031-4249-a2a4-834398287cc5")
-	)
-	(junction
-		(at 116.84 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b8df31bd-70de-435b-b34d-94d68cc1a630")
 	)
 	(junction
 		(at 74.93 119.38)
@@ -3434,6 +3434,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 118.11) (xy 101.6 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36f98fb6-5cba-4d8c-8f53-45894abc5471")
+	)
+	(wire
+		(pts
 			(xy 35.56 58.42) (xy 43.18 58.42)
 		)
 		(stroke
@@ -3461,16 +3471,6 @@
 			(type default)
 		)
 		(uuid "423621fc-5713-42fd-b3a7-f9ed6619588a")
-	)
-	(wire
-		(pts
-			(xy 116.84 95.25) (xy 101.6 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43321fe4-e706-4552-bc12-0570998480af")
 	)
 	(wire
 		(pts
@@ -3504,6 +3504,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 118.11) (xy 101.6 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e458cb4-a109-4d62-8d75-f48d575ad0cb")
+	)
+	(wire
+		(pts
 			(xy 105.41 52.07) (xy 105.41 55.88)
 		)
 		(stroke
@@ -3534,6 +3544,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 95.25) (xy 101.6 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7708c592-010a-4ddb-9648-2a0a9e9857d3")
+	)
+	(wire
+		(pts
 			(xy 53.34 45.72) (xy 53.34 54.61)
 		)
 		(stroke
@@ -3541,6 +3561,16 @@
 			(type default)
 		)
 		(uuid "782f278b-abb1-4a79-af73-75c95ac309b7")
+	)
+	(wire
+		(pts
+			(xy 116.84 105.41) (xy 116.84 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ab977f6-268f-46d4-b3ed-915a5a056a43")
 	)
 	(wire
 		(pts
@@ -3611,16 +3641,6 @@
 			(type default)
 		)
 		(uuid "897fdf04-d802-4099-a70e-77250bc2317a")
-	)
-	(wire
-		(pts
-			(xy 116.84 95.25) (xy 116.84 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96031923-a7e1-43bc-84c0-76318f59a630")
 	)
 	(wire
 		(pts
@@ -6475,84 +6495,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 101.6 115.57 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6b1715b3-27ab-4b44-9cdf-ef828f3d0ace")
-		(property "Reference" "#PWR021"
-			(at 101.6 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 101.6 120.65 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 101.6 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "576a2b57-b0b1-4932-8c46-41731c1a4688")
-		)
-		(instances
-			(project "halleffectsensor"
-				(path "/95784f95-fcdb-4f13-9306-39fdb50a3c2d"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 46.99 54.61 90)
 		(unit 1)
@@ -7484,6 +7426,84 @@
 			(project "halleffectsensor"
 				(path "/95784f95-fcdb-4f13-9306-39fdb50a3c2d"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 109.22 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d19f60c-6bb3-425c-8655-7cf1b7ea27ea")
+		(property "Reference" "#PWR021"
+			(at 109.22 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 109.22 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 109.22 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "652068e1-94ff-4145-b9e4-5c0fa6cb1f04")
+		)
+		(instances
+			(project "halleffectsensor"
+				(path "/95784f95-fcdb-4f13-9306-39fdb50a3c2d"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)

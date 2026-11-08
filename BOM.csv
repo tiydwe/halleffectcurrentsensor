@@ -9,13 +9,15 @@ C2836398,20,0.52,https://www.lcsc.com/product-detail/C2836398.html,P-mosfet
 C7528752,10,0.26,https://www.lcsc.com/product-detail/C7528752.html,Tactile button
 C2933707,100,0.63,https://www.lcsc.com/product-detail/C2933707.html,470 ohm resistor
 C2930433,100,0.59,https://www.lcsc.com/product-detail/C2930433.html,910 ohm resistor
+C54974101,10,0.47,https://www.lcsc.com/product-detail/C54974101.html,10k ohm
+C2907370,100,0.43,https://www.lcsc.com/product-detail/C2907370.html,10k ohm
 LCSC shipping (est),,15,,approx
 XIAO nRF52840,1,9.99,https://www.seeedstudio.com/Seeed-XIAO-BLE-nRF52840-p-5201.html,
 Seeed studio shipping,,7.26,,
-1Ah lipo battery,1,6.49,https://www.amazon.com/AKZYTUE-1000mAh-Battery-Rechargeable-Protection/dp/B0FRFYJ32K,
-Ferrite core (pack of 5),1,8.09,https://www.amazon.com/gp/product/B07YJXRN6V/ref=ewc_pr_img_2,
-M2 screw kit,1,8.3,https://www.amazon.com/Fgruh-1200PCS-Assortment-Washers-Assorted/dp/B0FGV5K8BT?th=1,Best way I could find to get screws
+1Ah lipo battery,1,8.19,https://www.amazon.com/AKZYTUE-1000mAh-Battery-Rechargeable-Protection/dp/B0FRFYJ32K,Best way I could find to get screws
+Ferrite core (pack of 5),1,8.49,https://www.amazon.com/gp/product/B07YJXRN6V/ref=ewc_pr_img_2,
+M2 screw kit,1,8.3,https://www.amazon.com/Fgruh-1200PCS-Assortment-Washers-Assorted/dp/B0FGV5K8BT?th=1,Cheaper than JLCPCB when including shipping
 ,,,,
-PCB - OSHPARK ,1,17.35,,Cheaper than JLCPCB when including shipping
+PCB - OSHPARK ,1,17.35,,
 ,,,,
-Total Price (USD):,,$80.08 ,,
+Total Price (USD):,,$83.08 ,,

@@ -31,6 +31,5 @@ The whole system is powered from a lipo battery, which is regulated to 3.3v by t
 # IMAGES
 Full schematic:
 ![screenshot of schematic](assets/schematic.png)
-
 PCB layout:
 ![screenshot of pcb layout](assets/pcb.png)
